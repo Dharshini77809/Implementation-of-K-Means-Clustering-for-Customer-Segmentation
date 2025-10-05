@@ -12,17 +12,18 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 1. Import pandas and mataplotlib.pyplot
 2. 2.Read the dataset and transform it
 3. 3.Import KMeans and fit the data in the model
-4.Plot the cluster graph
+4.Plot the cluster graph
 ```
+
 ## Program:
 ```
 /*
 Program to implement the K Means Clustering for Customer Segmentation.
-Developed by: S Priyadharshini
-RegisterNumber: 25017590
-*/
-```
-```
+Developed by:Priyadharhini.S
+RegisterNumber: 25017590  
+
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 data = pd.read_csv("Mall_Customers.csv")
@@ -58,7 +59,9 @@ plt.scatter(df3["Annual Income (k$)"],df3["Spending Score (1-100)"],c="green",la
 plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="magenta",label="cluster4")
 plt.legend()
 plt.title("Customer Segments")
+
 ```
+/*
 
 
 ## Output:
